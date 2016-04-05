@@ -35,7 +35,7 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="cUx-Uw-jda">
-                                <rect key="frame" x="205" y="39" width="182" height="50"/>
+                                <rect key="frame" x="205" y="41" width="182" height="50"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skull" translatesAutoresizingMaskIntoConstraints="NO" id="D67-JU-eTE">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -60,14 +60,14 @@
                                     </imageView>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Abj-bD-LK8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Abj-bD-LK8" customClass="MonsterImg" customModule="myLittleMonster" customModuleProvider="target">
                                 <rect key="frame" x="-70" y="282" width="890" height="275"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="275" id="vj5-8u-QWp"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="1VQ-xG-tCA">
-                                <rect key="frame" x="155" y="104" width="290" height="98"/>
+                                <rect key="frame" x="155" y="106" width="290" height="98"/>
                                 <subviews>
                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="Kts-1O-Yhu" customClass="DragImg" customModule="myLittleMonster" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="95" height="98"/>
@@ -80,10 +80,19 @@
                                     <rect key="frame" x="5" y="104" width="565" height="98"/>
                                 </variation>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Feed your pet monster!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oju-BQ-trW">
+                                <rect key="frame" x="150" y="558" width="300" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="igG-os-GQw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.75686274509803919" green="0.75686274509803919" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cUx-Uw-jda" firstAttribute="centerY" secondItem="Fri-hv-fbm" secondAttribute="centerY" id="6Uz-7Y-OFk"/>
+                            <constraint firstItem="cUx-Uw-jda" firstAttribute="centerY" secondItem="Fri-hv-fbm" secondAttribute="centerY" constant="2" id="6Uz-7Y-OFk"/>
                             <constraint firstItem="Abj-bD-LK8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="75" id="6rg-Rd-NKC"/>
                             <constraint firstItem="1VQ-xG-tCA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8ap-OH-RNQ"/>
                             <constraint firstItem="YPf-Xy-Ipv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Jw8-bv-pYb"/>
@@ -91,6 +100,7 @@
                             <constraint firstItem="Fri-hv-fbm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="OmE-JV-Q3k"/>
                             <constraint firstAttribute="trailing" secondItem="YPf-Xy-Ipv" secondAttribute="trailing" id="TaA-QJ-G8L"/>
                             <constraint firstItem="1VQ-xG-tCA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XPP-EU-vcK"/>
+                            <constraint firstItem="oju-BQ-trW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xt3-GJ-1ee"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Abj-bD-LK8" secondAttribute="bottom" constant="43" id="YTn-Pl-HFL"/>
                             <constraint firstItem="R1F-Z5-cHI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cAf-rr-Thz"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="R1F-Z5-cHI" secondAttribute="bottom" id="gau-fv-ZVF"/>
@@ -99,6 +109,7 @@
                             <constraint firstItem="R1F-Z5-cHI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qFy-OJ-dzM"/>
                             <constraint firstItem="1VQ-xG-tCA" firstAttribute="top" secondItem="cUx-Uw-jda" secondAttribute="bottom" constant="15" id="tpT-py-fed"/>
                             <constraint firstAttribute="trailing" secondItem="R1F-Z5-cHI" secondAttribute="trailing" id="vXX-0u-S03"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oju-BQ-trW" secondAttribute="bottom" constant="14" id="wo3-G8-oFs"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YPf-Xy-Ipv" secondAttribute="bottom" id="xap-cB-gSK"/>
                             <constraint firstItem="Fri-hv-fbm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xfe-r6-ftu"/>
                         </constraints>
@@ -122,7 +133,13 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="currentStreakLabel" destination="oju-BQ-trW" id="58K-Gn-BZZ"/>
+                        <outlet property="foodImg" destination="Les-U2-PeY" id="QK9-vj-ekw"/>
+                        <outlet property="heartImg" destination="Kts-1O-Yhu" id="vDT-dR-ibW"/>
                         <outlet property="monsterImg" destination="Abj-bD-LK8" id="5sG-kt-a2n"/>
+                        <outlet property="penalty1Image" destination="D67-JU-eTE" id="1YZ-2f-FbT"/>
+                        <outlet property="penalty2Image" destination="8pM-ef-u0F" id="m2N-FT-No7"/>
+                        <outlet property="penalty3Image" destination="UYG-ab-kfK" id="c2j-av-RG2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
