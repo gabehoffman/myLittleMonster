@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833D21861CD8FF580018C767 /* Preview1.png in Resources */ = {isa = PBXBuildFile; fileRef = 833D21851CD8FF580018C767 /* Preview1.png */; };
 		8346CFD61CAC540000674D01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346CFD51CAC540000674D01 /* AppDelegate.swift */; };
 		8346CFD81CAC540000674D01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8346CFD71CAC540000674D01 /* ViewController.swift */; };
 		8346CFDB1CAC540000674D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8346CFD91CAC540000674D01 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		833D21851CD8FF580018C767 /* Preview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview1.png; sourceTree = "<group>"; };
 		8346CFD21CAC540000674D01 /* myLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myLittleMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8346CFD51CAC540000674D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8346CFD71CAC540000674D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				8346CFD91CAC540000674D01 /* Main.storyboard */,
 				8346CFDC1CAC540000674D01 /* Assets.xcassets */,
 				8346CFDE1CAC540000674D01 /* LaunchScreen.storyboard */,
+				833D21851CD8FF580018C767 /* Preview1.png */,
 				8346CFE11CAC540000674D01 /* Info.plist */,
 				8346CFE91CAC6F6600674D01 /* MonsterImg.swift */,
 			);
@@ -147,6 +150,7 @@
 				8346CFF01CAC858F00674D01 /* bite.wav in Resources */,
 				8346CFF21CAC858F00674D01 /* death.wav in Resources */,
 				8346CFF31CAC858F00674D01 /* heart.wav in Resources */,
+				833D21861CD8FF580018C767 /* Preview1.png in Resources */,
 				8346CFF11CAC858F00674D01 /* cave-music.mp3 in Resources */,
 				8346CFE01CAC540000674D01 /* LaunchScreen.storyboard in Resources */,
 				8346CFDD1CAC540000674D01 /* Assets.xcassets in Resources */,
@@ -316,6 +320,7 @@
 				8346CFE61CAC540000674D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
